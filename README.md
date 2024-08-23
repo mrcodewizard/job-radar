@@ -1,6 +1,6 @@
 # Job Portal in MERN Stack
 
-<h3 style="background-color:orange; padding: 2px;">Setup</h3>
+<h3 style="background-color:orange;padding: 2px;">Setup</h3>
 
 # How to start client
 <p>cd client </p>

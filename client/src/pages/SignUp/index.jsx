@@ -1,7 +1,7 @@
 import React from 'react'
 import Breadcrumb from '../../components/Breadcrumb/Breadcrumb'
 
-const Login = () => {
+const SignUp = () => {
   return (
     <div>
       <Breadcrumb title="Signup" />
@@ -26,7 +26,7 @@ const Login = () => {
                            </div>
                      </div>
                      <div class="col-12">
-                           <button class="btn btn-primary w-100 py-3" type="submit">Login</button>
+                        <button class="btn btn-primary w-100 py-3" type="submit">SignUp</button>
                      </div>
                   </div>
                </form>
@@ -36,4 +36,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default SignUp

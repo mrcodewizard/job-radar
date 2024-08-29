@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../layout/Layout";
 import Home from "../pages/Home/Home";
-import SignIn from "../pages/Login/Login";
+import SignIn from "../pages/SignIn";
+import SignUp from "../pages/SignUp";
 
 const AppRoutes = () => (
   <BrowserRouter>
@@ -21,7 +22,16 @@ const AppRoutes = () => (
         path="/signin"
         element={
           <Layout>
-              <SignIn />
+            <SignIn />
+          </Layout>
+        }
+      />
+
+      <Route
+        path="/signup"
+        element={
+          <Layout>
+            <SignUp />
           </Layout>
         }
       />
